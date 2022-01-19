@@ -1,15 +1,15 @@
 import base64
 
-id = 'admin'.encode('id input')
-password = 'nimda'.encode('password input')
+id = 'admin'.encode()
+password = 'nimda'.encode()
 
 for i in range(20):
 	
 	id = base64.b64encode(id)
-	password = base64.b64encode(pw)
+	password = base64.b64encode(password)
 	
-print(id)
+print('id = \n', id)
 
 print('\n\n\n\n')
 
-print(pw)
+print('password = \n', password)
